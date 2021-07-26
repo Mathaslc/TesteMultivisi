@@ -1,0 +1,74 @@
+.btn-orange{
+    background: #E85937;
+    border-radius: 6px;
+}
+.btn-orange:hover{
+    background-color: #dc4823;
+}
+
+.font-orange{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    /* Auxiliary/$sun */
+    color: #F5D15F;
+}
+.bg-blue{
+    background: #040327;
+    
+}
+.orange{
+    color:#F5D15F ;
+}
+
+.bg-space{
+    background: linear-gradient(180deg, #040327 0%, #0D0E13 24.49%);
+}
+
+.absolute-left{
+    left: 0;
+}
+.bg-black{
+    background: #0D0E13;
+}
+
+.orange-link{
+    color: #E85937;
+    text-decoration: none;
+}
+.orange-link:hover{
+    color:#dc4823;
+    text-decoration: none;
+}
+.bg-blue-light{
+    background-color: #0E0D40;
+}
+.white-link{
+    margin: 0 1.5em;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.white-link:hover{
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
+
+.form-blue{
+    color:#fff;
+    background-color: #0E0D40;
+}
+.form-blue:focus{
+    color:#fff;
+    background-color: #0E0D40;
+    box-shadow: none;
+}
+@media (max-width: 768px) {
+    #faleConosco,#missoes, #carrousel, #sobreNos, #navFooter{
+        display: none;
+    }
+  }
